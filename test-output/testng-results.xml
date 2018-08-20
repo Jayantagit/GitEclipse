@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2324" started-at="2018-08-15T04:31:04Z" finished-at="2018-08-15T04:31:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2324" started-at="2018-08-15T04:31:04Z" finished-at="2018-08-15T04:31:06Z">
+      <class name="RegressionTest.TestCase">
+        <test-method status="PASS" signature="startreport()[pri:0, instance:RegressionTest.TestCase@194bcebf]" name="startreport" is-config="true" duration-ms="545" started-at="2018-08-15T04:31:04Z" finished-at="2018-08-15T04:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method status="PASS" signature="AppLaunch()[pri:0, instance:RegressionTest.TestCase@194bcebf]" name="AppLaunch" duration-ms="55" started-at="2018-08-15T04:31:05Z" finished-at="2018-08-15T04:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:RegressionTest.TestCase@194bcebf]" name="getResult" is-config="true" duration-ms="6" started-at="2018-08-15T04:31:05Z" finished-at="2018-08-15T04:31:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AppLaunch status=SUCCESS method=TestCase.AppLaunch()[pri:0, instance:RegressionTest.TestCase@194bcebf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:RegressionTest.TestCase@194bcebf]" name="endreport" is-config="true" duration-ms="1654" started-at="2018-08-15T04:31:05Z" finished-at="2018-08-15T04:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- RegressionTest.TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
